@@ -9,4 +9,8 @@
 
   --search-input-width: 10rem;
   --search-result-width: 20rem;
+  // https://github.com/vuepress/vuepress-next/issues/359
+  h1:focus, h2:focus, h3:focus, h4:focus, h5:focus, h6:focus {
+    outline: none !important;
+  }
 }
