@@ -45,3 +45,15 @@ head: [['link', { rel: 'icon', href: '/images/favicon.ico' }]],
 
   - https://github.com/markdown-it/markdown-it
   - 在线演示：https://markdown-it.github.io/
+
+## 自定义页面 title、description
+
+在 markdown 顶部加上以下内容
+
+```md
+---
+lang: zh-CN
+title: 页面的标题
+description: 页面的描述
+---
+```
